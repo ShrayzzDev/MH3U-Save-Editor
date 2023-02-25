@@ -1,0 +1,1532 @@
+0001 None
+0002 Book of Combo 1
+0003 Book of Combo 2
+0004 Book of Combo 3
+0005 Book of Combo 4
+0006 Book of Combo 5
+0007 Organizer Guide
+0008 Pack Rat Guide
+0009 Potion
+000A Mega Potion
+000B Nutrients
+000C Mega Nutrients
+000D Antidote
+000E Immunizer
+000F Dash Juice
+0010 Mega Dash Juice
+0011 Demondrug
+0012 Mega Demondrug
+0013 Might Pill
+0014 Armorskin
+0015 Mega Armorskin
+0016 Adamant Pill
+0017 Cool Drink
+0018 Hot Drink
+0019 Cleanser
+001A Psychoserum
+001B Herbal Medicine
+001C Max Potion
+001D Ancient Potion
+001E Catalyst
+001F Energy Drink
+0020 Air Philter
+0021 Mega Air Philter
+0022 Gunpowder
+0023 Lifecrystals
+0024 Lifepowder
+0025 Mystery Charm
+0026 Shining Carm
+0027 Timeworn Charm
+0028 Enduring Charm
+0029 Powercharm
+002A Powertalon
+002B Armorcharm
+002C Armortalon
+002D Tranquilizer
+002E Raw Meat
+002F Poisoned Meat
+0030 Tinger Meat
+0031 Drugged Meat
+0032 Rare Steak
+0033 Well-done Steak
+0034 Burnt Meat
+0035 Hot Meat
+0036 Chilled Meat
+0037 Pink Liver
+0038 Ethnic Wyvrnmeat
+0039 Boomerang
+003A Throwing Knife
+003B Poison Knife
+003C Sleep Knife
+003D Paralysis Knife
+003E Tranq Knife
+003F Bomb Casing
+0040 Paintball
+0041 Flash Bomb
+0042 Sonic Bomb
+0043 Dung
+0044 Super-sized Dung
+0045 Fertile Mud
+0046 Dung Bomb
+0047 Smoke Bomb
+0048 Poison Smoke Bmb
+0049 Farcaster
+004A Tranq Bomb
+004B Oxygen Supply
+004C Spider Web
+004D Net
+004E Trap Tool
+004F Pitfall Trap
+0050 Shock Trap
+0051 Small Barrel
+0052 Large Barrel
+0053 Barrel Bomb S
+0054 Barrel Bomb S+
+0055 Barrel Bomb L
+0056 Barrel Bomb L+
+0057 Bounce Bomb
+0058 Bounce Bomb+
+0059 Felvine Bomb
+005A Huskberry
+005B Bone Husk S
+005C Bone Husk L
+005D Normal S Lv1
+005E Normal S Lv2
+005F Normal S Lv3
+0060 Pierce S Lv1
+0061 Pierce S Lv2
+0062 Pierce S Lv3
+0063 Pellet S Lv1
+0064 Pellet S Lv2
+0065 Pellet S Lv3
+0066 Crag S Lv1
+0067 Crag S Lv2
+0068 Crag S Lv3
+0069 Clust S Lv1
+006A Clust S Lv2
+006B Clust S Lv3
+006C Flaming S
+006D Water S
+006E Thunder S
+006F Freeze S
+0070 Dragon S
+0071 Recov S Lv1
+0072 Recov S Lv2
+0073 Poison S Lv1
+0074 Poison S Lv2
+0075 Para S Lv1
+0076 Para S Lv2
+0077 Sleep S Lv1
+0078 Sleep S Lv2
+0079 Tranq S
+007A Paint S
+007B Demon S
+007C DUMMY 1
+007D Armor S
+007E DUMMY 2
+007F Sub S Lv1
+0080 Sub S Lv2
+0081 Exhaust S Lv1
+0082 Exhaust S Lv2
+0083 Slicing S
+0084 DUMMY 3
+0085 DUMMY 4
+0086 WyvernFire
+0087 UW Ballista Ammo
+0088 (No Coating)
+0089 Empty Phial
+008A Power Coating
+008B C.Range Coating
+008C Poison Coating
+008D Para Coating
+008E Sleep Coating
+008F Exhaust Coating
+0090 Paint Coating
+0091 DUMMY 5
+0092 Worm
+0093 DUMMY 6
+0094 Mega Fishing Fly
+0095 Frog
+0096 Whetfish Bait
+0097 Sushifish Bait
+0098 Tuna Bait
+0099 DUMMY 7
+009A Goldenfish Bait
+009B Burst Bait
+009C DUMMY 8
+009D Old Pickaxe
+009E Iron Pickaxe
+009F Mega Pickaxe
+00A0 Old Bug Net
+00A1 Bug Net
+00A2 Mega Bug Net
+00A3 Fishing Harpoon
+00A4 Mega Harpoon
+00A5 BBQ Spit
+00A6 Double BBQ Spit
+00A7 Whetstone
+00A8 Binoculars
+00A9 Garbage
+00AA Field Horn
+00AB Health Horn
+00AC Antidote Horn
+00AD Demon Horn
+00AE Armor Horn
+00AF Honey
+00B0 Herb
+00B1 Antidote Herb
+00B2 Fire Herb
+00B3 DUMMY 9
+00B4 Ivy
+00B5 Sleep Herb
+00B6 Sap Plant
+00B7 Felvine
+00B8 Cactus Flower
+00B9 Airweed
+00BA Hot Pepper
+00BB DUMMY 10
+00BC Blue Mushroom
+00BD Nitroshroom
+00BE Parashroom
+00BF Toadstool
+00C0 Exciteshroom
+00C1 DUMMY 11
+00C2 Dragon Toadstool
+00C3 Bindshroom
+00C4 Paintberry
+00C5 Might Seed
+00C6 Adamant Seed
+00C7 Dragonfell Berry
+00C8 Scatternut
+00C9 Needleberry
+00CA DUMMY 12
+00CB Bomberry
+00CC DUMMY 13
+00CD DUMMY 14
+00CE DUMMY 15
+00CF DUMMY 16
+00D0 Nulberry
+00D1 Bumblepumpkin
+00D2 Broken Shell
+00D3 Black Pearl
+00D4 Jumbo Pearl
+00D5 Stone
+00D6 Iron Ore
+00D7 Earth Crystal
+00D8 Machalite Ore
+00D9 Dragonite Ore
+00DA Pelagicite Ore
+00DB DUMMY 17
+00DC DUMMY 18
+00DD DUMMY 19
+00DE Carbalite Ore
+00DF Eltalite Ore
+00E0 Fucium Ore
+00E1 Meldspar Ore
+00E2 Bathycite Ore
+00E3 Lava Nugget
+00E4 Firestone
+00E5 Firecell Stone
+00E6 Allfire Stone
+00E7 Lightcrystal
+00E8 Isisium
+00E9 DUMMY 20
+00EA Gracium
+00EB Antiseptic Stone
+00EC Ice Crystal
+00ED Armor Stone
+00EE Armor Sphere
+00EF Armor Sphere+
+00F0 Adv Armor Sphere
+00F1 Hrd Armor Sphere
+00F2 Hvy Armor Sphere
+00F3 DUMMY 21
+00F4 Tru Armor Sphere
+00F5 Whetfish
+00F6 Sushifish
+00F7 Sleepyfish
+00F8 Pin Tuna
+00F9 Popfish
+00FA Scatterfish
+00FB Burst Arowana
+00FC Bomb Arowana
+00FD Glutton Tuna
+00FE Small Goldenfish
+00FF Wanchovy
+0100 DUMMY 22
+0101 Blue Cutthroat
+0102 Humspun Conch
+0103 DUMMY 23
+0104 Insect Husk
+0105 Yambug
+0106 Bughopper
+0107 DUMMY 215
+0108 Stinkhopper
+0109 Snakebee Larva
+010A GodBug
+010B Bitterbug
+010C Flashbug
+010D Thunderbug
+010E Fulgurbug
+010F Carpenterbug
+0110 Killer Beetle
+0111 Hercudrome
+0112 DUMMY 24
+0113 King Scarab
+0114 Rare Scarab
+0115 DUMMY 25
+0116 Flutterfly
+0117 DUMMY 26
+0118 Bomb Sac
+0119 Screamer
+011A Poison Sac
+011B Toxin Sac
+011C DUMMY 27
+011D Paralysis
+011E Omniplegia Sac
+011F Sleep Sac
+0120 Coma Sac
+0121 Flame Sac
+0122 Inferno Sac
+0123 Conflagrant Saac
+0124 Aqua Sac
+0125 Torrent Sac
+0126 DUMMY 217
+0127 Thunder Sac
+0128 Lightning Sac
+0129 Frost Sac
+012A Freezer Sac
+012B Dash Extract
+012C Pale Extract
+012D Monster Bone S
+012E Monster Bone M
+012F Monster Bone L
+0130 Mystery Bone
+0131 Unknown Skull
+0132 Bone
+0133 Avian Stoutbone
+0134 DUMMY 218
+0135 Monster Bone+
+0136 Monster Keebone
+0137 Monster Hardbone
+0138 Monster Slogbone
+0139 Avian Finebone
+013A Jumbo Bone
+013B Stoutbone
+013C Dragonbone Relic
+013D Wyvern Fang
+013E Wyvern Claw
+013F Wyvern Stone
+0140 Lrg Wyvern Stone
+0141 Bird Wyvern Gem
+0142 Fey Wyvern Gem
+0143 ElderDragonBlood
+0144 DUMMY 28
+0145 Azure Dragongem
+0146 Azure Drgnsphire
+0147 Beautiful Scale
+0148 Shining Starfish
+0149 Armorfish Morsel
+014A Fine pelt
+014B Power Paddle
+014C Curved Fang
+014D Dragonbone Piece
+014E Abalone Piece
+014F Fossil Piece
+0150 Stunning Quill
+0151 Saturnian
+0152 Mystic Narwhal
+0153 Perfect Paddle
+0154 Moonlight Fang
+0155 Glittering Scale
+0156 Gaint Skull
+0157 Atlantis Crab
+0158 Queen Needle
+0159 Ancient Skin Oil
+015A Flamboyant Quill
+015B Eldest Saturnian
+015C Queen's Spirit
+015D Vermillion Scale
+015E Sea-King's Scale
+015F Old Egg
+0160 Saturnian Trap
+0161 BugMaker! Pro
+0162 Funky Pheromones
+0163 Shroom Germ
+0164 Shroom Germ+
+0165 Bizzy Bees
+0166 Fish Finder
+0167 Treasure Tracker
+0168 Spare Spear
+0169 Pittance Fang
+016A Fortune Fang
+016B Gold Needle
+016C Wyverngold
+016D Pirate Booty
+016E Steel Egg
+016F Silver Egg
+0170 Golden Egg
+0171 Kelbi Horn Objet
+0172 Twstd Horn Objet
+0173 MohranFang Objet
+0174 Poogie
+0175 Eggie Poogie
+0176 Rath Poogie
+0177 Sandstone Plant
+0178 Marshland Plant
+0179 Snowflake Plant
+017A Prismshroom Lamp
+017B Qurupeco Lamp
+017C Sirensea Lamp
+017D Oceanic Fountain
+017E Bubbly Fountain
+017F Magma Fountain
+0180 Iron Figure
+0181 Machalite Figure
+0182 Dragonite Figure
+0183 Model Sandskiff
+0184 Model Airship
+0185 Model Poogieship
+0186 Guildie (Red)
+0187 Guildie (Green)
+0188 Guildie (Blue)
+0189 Great Poogi
+018A Incomplete Crown
+018B Crown's Gemstone
+018C Dazzling Crown
+018D Prize Gold Sword
+018E Golden Medallion
+018F Kelbi Horn
+0190 Blue Kelbi Horn
+0191 Warm Pelt
+0192 High-qualty Pelt
+0193 Gargwa Feather
+0194 DUMMY 29
+0195 DUMMY 30
+0196 Anteka Antler
+0197 DUMMY 31
+0198 Bnahabra Shell
+0199 DUMMY 32
+019A Bnaha Carapace
+019B Bnahabra Wing
+019C DUMMY 33
+019D Bnahabra Cutwing
+019E Bnahabra Spine
+019F Altaroth Jaw
+01A0 DUMMY 34
+01A1 Altaroth Stomach
+01A2 Prized Stomach
+01A3 Quality Sac
+01A4 Bullfango Pelt
+01A5 DUMMY 35
+01A6 Bullfango Head
+01A7 Monster Fluid
+01A8 Monster Broth
+01A9 Rhenoplos Shell
+01AA Rhenoplos Bone
+01AB Rhenoplos Scalp
+01AC DUMMY 36
+01AD Rheno Carapace
+01AE DUMMY 219
+01AF Slagtoth Hide+
+01B0 DUMMY 37
+01B1 Big Fin
+01B2 DUMMY 38
+01B3 Quality Fin
+01B4 Giant Fin
+01B5 Sharpend Fang
+01B6 Velvety Hide
+01B7 Sharqskin
+01B8 Jaggi Scale
+01B9 Jaggi Scale+
+01BA DUMMY 39
+01BB Jaggi Hide
+01BC DUMMY 40
+01BD DUMMY 41
+01BE Bird Wyvern Fang
+01BF G.Jaggi Hide
+01C0 G.Jaggi Hide+
+01C1 Great Jaggi Piel
+01C2 G.Jaggi Claw
+01C3 G.Jaggi Claw+
+01C4 DUMMY 42
+01C5 King's Frill
+01C6 Imperial Frill
+01C7 Great Jaggi Head
+01C8 DUMMY 43
+01C9 Baggi Hide
+01CA Baggi Scale
+01CB Baggi Scale+
+01CC DUMMY 44
+01CD G.Baggi Hide
+01CE G.Baggi Hide+
+01CF Great Baggi Piel
+01D0 G.Baggi Claw
+01D1 G.Baggi Claw+
+01D2 DUMMY 45
+01D3 King' Crest
+01D4 Imperial Crest
+01D5 Wroggi Scale
+01D6 Wroggi Scale+
+01D7 DUMMY 46
+01D8 Wroggi Hide
+01D9 Wroggi Fang
+01DA G.Wroggi Hide
+01DB G.Wroggi Piel
+01DC G.Wroggi Hide+
+01DD G.Wroggi Brace
+01DE DUMMY 47
+01DF G.Wroggi Brace+
+01E0 King's Beak
+01E1 Imperial Beak
+01E2 Qurupeco Sacle
+01E3 Qurupeco Scale+
+01E4 Qurupeco Shard
+01E5 Qurupeco Feather
+01E6 Lustrous Feather
+01E7 Qurupeco Wing
+01E8 Peco Fellwing
+01E9 Vivid Feather
+01EA Strange Beak
+01EB Wonderful Beak
+01EC Alluring Beak
+01ED Flintstone
+01EE Quality Flint
+01EF C.Peco Scale+
+01F0 C.Peco Shard
+01F1 C.Peco Wing
+01F2 C.Peco Fellwing
+01F3 Voltstone
+01F4 High Voltstone
+01F5 Hydro Hide
+01F6 Hydro Hide+
+01F7 DUMMY 48
+01F8 Immature Songe
+01F9 Quality Sponge
+01FA Spongy Hide
+01FB Spongy Hide+
+01FC Spongy Piel
+01FD R.Ludroth Scal
+01FE R.Ludroth Scal+
+01FF R.Ludroth Shard
+0200 R.Ludroth Claw
+0201 R.Ludroth Claw+
+0202 R.Ludroth Talon
+0203 R.Ludroth Crest
+0204 R.Ludroth Crest+
+0205 Chic Crest
+0206 R.Ludroth Tail
+0207 Plum Spongy Hide
+0208 Plum Spongy Piel
+0209 P.Ludroth Scale+
+020A P.Ludroth Shard
+020B P.Ludroth Claw+
+020C P.Ludroth Talon
+020D Barroth Shell
+020E Barroth Carapace
+020F Barroth Cortex
+0210 Barroth Ridge
+0211 Barroth Ridge+
+0212 Barroth Chine
+0213 Barroth Claw
+0214 Barroth Claw+
+0215 Barroth Talon
+0216 Barroth Scalp
+0217 Barroth Crown
+0218 Barroth Tail
+0219 J.Barr Carapace
+021A J.Barroth Cortex
+021B J.Barroth Ridge+
+021C J.Barroth Chine
+021D J.Barroth Claw+
+021E J.Barroth Talon
+021F J.Barroth Scalp
+0220 J.Barroth Crown
+0221 J.Barroth Tail
+0222 J.Barroth Lash
+0223 Frozen Glob
+0224 DUMMY 49
+0225 Gobul Hide
+0226 Hobul Hide+
+0227 Gobul Piel
+0228 Gobul Fin
+0229 Gobul Fin+
+022A Fine Gobul Fin
+022B Gobul Spike
+022C Gobul Skike+
+022D Gobul Surspike
+022E Gobul Whisker
+022F Gobul Kingwhisker
+0230 Gobul Latern
+0231 Gobul Latern+
+0232 Gobul Beacon
+0233 Rathian Scale
+0234 Rathian Scale+
+0235 Rathian Shard
+0236 Rathian Shell
+0237 Rathian Carapace
+0238 Rathian Cortex
+0239 Rathian Webbing
+023A Rathian Spike
+023B Rathian Spike+
+023C Rathian Surspike
+023D Rathian Plate
+023E Rathian Mantel
+023F Rahtian Ruby
+0240 DUMMY 50
+0241 P.Rathian Scale+
+0242 P.Rathian Shard
+0243 P.Rath Carapace
+0244 P.Rathian Cortex
+0245 G.Rathian Shard
+0246 G.Rathian Cortex
+0247 G.Rahtian Surspike
+0248 Rathalos Scale
+0249 Rathalos Scale+
+024A Rathalos Shard
+024B Rathalos Shell
+024C Rathalos Carapace
+024D Rathalos Cortex
+024E Rathalos Webbing
+024F Rahtalos Fellwing
+0250 Rathalos Tail
+0251 Rathalos Lash
+0252 Rahtalos Plate
+0253 Rathalos Mantel
+0254 Rathalos Ruby
+0255 Rathalos Talon
+0256 Rath Ripper
+0257 Rath Marrow
+0258 Rath Medulla
+0259 Rath Gleem
+025A A.Rath Scale+
+025B A.Rath Shard
+025C A.Rath Carapace
+025D A.Rath Cortex
+025E A.Rathalos Tail
+025F A.Rathalos Lash
+0260 A.Rathalos Wing
+0261 S.Rathalos Shard
+0262 S.Rath Cortex
+0263 S.Rathalos Lash
+0264 DUMMY 215
+0265 DUMMY 51
+0266 DUMMY 52
+0267 Gigginox Hide
+0268 Gigginox Hide+
+0269 Gigginox Piel
+026A Uncanny Hide
+026B Uncanny Hide+
+026C Gigginox Claw
+026D Gigginox Claw+
+026E Gigginox Talon
+026F DUMMY 53
+0270 DUMMY 54
+0271 Fearsome Maw
+0272 Venom Gland
+0273 Grim Venom Gland
+0274 Foul Venom Gland
+0275 B.Giggi Hide+
+0276 B.Giggi Piel
+0277 B.Giggi Claw+
+0278 B.Giggi Talon
+0279 Lagiacrus Scale
+027A Lagiacrus Scale+
+027B Lagiacrus Shard
+027C Shell Shocker
+027D Shell Shocker+
+027E Deathly Shocker
+027F Lagiacrus Hide
+0280 Lagiacrus Hide+
+0281 Lagiacrus Claw
+0282 Lagiacrus Claw+
+0283 Lagiacrus Talon
+0284 Lagiacrus Tail
+0285 Lagiacrus Flail
+0286 Lagiacrus Horn
+0287 Lagiacrus Horn+
+0288 Lagia Sapphire
+0289 Lagiacrus Mantel
+028A Lagiacrus Plate
+028B I.Lagi Scale+
+028C I.Lagi Shard
+028D I.Lagi Shocker+
+028E I.Lagi D-Shocker
+028F I.Lagi Hide+
+0290 I.Lagi Piel
+0291 DUMMY 55
+0292 DUMMY 56
+0293 DUMMY 57
+0294 DUMMY 58
+0295 I.Lagi Horn+
+0296 I.Lagi Hardhorn
+0297 DUMMY 59
+0298 DUMMY 60
+0299 DUMMY 61
+029A A.Lagi Shard
+029B A.Lagi D-Shocker
+029C A.Lagi Piel
+029D DUMMY 62
+029E DUMMY 63
+029F A.Lagi Hardhorn
+02A0 A.Lagi Dynamo
+02A1 Barioth Shell
+02A2 Barioth Carapace
+02A3 Barioth Cortex
+02A4 Barioth Pelt
+02A5 Barioth Pelt+
+02A6 Barioth Fur
+02A7 Barioth Claw
+02A8 Barioth Claw+
+02A9 Barioth Talon
+02AA Barioth Spike
+02AB DUMMY 64
+02AC Barioth Tail
+02AD Barioth Lash
+02AE Amber Tusks
+02AF Amber Tusks+
+02B0 Hvy Amber Tusks
+02B1 S.Bari Carapace
+02B2 S.Barioth Cortex
+02B3 S.Barioth Pelt+
+02B4 S.Barioth Fur
+02B5 S.Barioth Claw+
+02B6 S.Barioth Talon
+02B7 S.Barioth Tail
+02B8 S.Barioth Lash
+02B9 Indigo Tusks+
+02BA Hvy Indigo Tusks
+02BB Rugged PLeura
+02BC Rugged PLeura+
+02BD Diablos Shell
+02BE Diablos Carapace
+02BF Diablos Cortex
+02C0 Diablos Ridge
+02C1 Diablos Ridge+
+02C2 Diablos Chine
+02C3 Diablos Tailcase
+02C4 DUMMY 65
+02C5 Diablos Fang
+02C6 Twiested Horn
+02C7 Majestic Horn
+02C8 Stout Horn
+02C9 Diablos Marrow
+02CA Diablos Medulla
+02CB B.Diab Carapace
+02CC B.Diablos Cortex
+02CD B.Diablos Ridge+
+02CE B.Diablos Chine
+02CF DUMMY 66
+02D0 DUMMY 67
+02D1 Blackcurl Horn
+02D2 Blackcurl Horn+
+02D3 Uragaan Scale
+02D4 Uragaan Scale+
+02D5 Uragaan Shard
+02D6 Uragaan Shell
+02D7 Uragaan Carapace
+02D8 Uragaan Cortex
+02D9 Uragaan Jaw
+02DA Uragaan Jaw+
+02DB Uragaan Scute
+02DC Uragaan Scute+
+02DD Uragaan Marrow
+02DE Uragaan Ruby
+02DF Uragaan Pallium
+02E0 S.Uragaan Scale+
+02E1 S.Uragaan Shard
+02E2 S.Urag Carapace
+02E3 S.Uragaan Cortex
+02E4 S.Uragaan Maw
+02E5 S.Uragaan Jaw+
+02E6 S.Uaraaan Scute
+02E7 S.Uragaan Scute+
+02E8 Uroktor Scale
+02E9 Uroktor Scale+
+02EA Supple Piel
+02EB Agnaktor Scale
+02EC DUMMY 68
+02ED Agnaktor Shell
+02EE Agnk Carapace
+02EF Agnaktor Hide
+02F0 Agnaktor Hide+
+02F1 Agnaktor Piel
+02F2 Agnaktor Claw
+02F3 Agnaktor Claw+
+02F4 Agnaktor Talon
+02F5 Agnaktor Fin
+02F6 Agnaktor Fin+
+02F7 Fine Agnak Fin
+02F8 Agnaktor Beak
+02F9 DUMMY 69
+02FA Agnaktor Tail
+02FB DUMMY 70
+02FC Scalding Pleura+
+02FD Scorching Pleura
+02FE G.Agnak Carapace
+02FF G.Agnak Cortex
+0300 G.Agnak Hide+
+0301 G.Agnak Piel
+0302 G.Agnak Claw+
+0303 G.Agnak Talon
+0304 G.Agnak Fin+
+0305 Fine G.Agnak Fin
+0306 G.Agnak Beak
+0307 DUMMY 71
+0308 G.Agnak Tail
+0309 DUMMY 72
+030A Dewy PLeura+
+030B Drenched Pleura
+030C Ceadeus Scale
+030D Ceadeus Hide
+030E Ceadeus Fur
+030F Ceadues Tail
+0310 Crooked Horn
+0311 Luminous Organ
+0312 Deep Dragongem
+0313 G.Ceadeus Shard
+0314 G.Ceudeus Coat
+0315 G.Ceadeus Fur
+0316 DUMMY 73
+0317 Crooked Hardhorn
+0318 DUMMY 74
+0319 Dark Dragongem
+031A DUMMY 75
+031B Mohran Scale+
+031C DUMMY 76
+031D Mohran Carapace
+031E DUMMY 77
+031F Mohran Brace+
+0320 DUMMY 209
+0321 Sturdy Fang+
+0322 Earth Dragongem
+0323 DUMMY 78
+0324 H.Jhen Shard
+0325 DUMMY 79
+0326 H.Jhen Rockskin
+0327 DUMMY 80
+0328 H.Jhen Allbrace
+0329 DUMMY 81
+032A Deific Fang
+032B Earth Drgnsphire
+032C Deviljho Scale
+032D Deviljho Shard
+032E Deviljho Hide
+032F Deviljho Coat
+0330 Deviljho Fang
+0331 Vile Fang
+0332 Deviljho Talon
+0333 Deviljho Ripper
+0334 Deviljho Scalp
+0335 DUMMY 82
+0336 Deviljho Tail
+0337 Deviljho Flail
+0338 Deviljho Saliva
+0339 Black Blood
+033A Deviljho Gem
+033B Develjho Crook
+033C Alatreon Scute
+033D Alatreon Pallium
+033E Alatreon Plate
+033F Alatreon Mantel
+0340 Alatreon Talon
+0341 Alatreon Ripper
+0342 Alatreon Webbing
+0343 Aatreo Direwing
+0344 Alatreon Tail
+0345 Alatreo Diretail
+0346 Brkn Skypiercer
+0347 DUMMY 83
+0348 Skypiercer
+0349 Skyswayer
+034A Arzuros Pelt
+034B Arzuros Pelt+
+034C DUMMY 84
+034D Azuros Shell
+034E Arzuros Carapace
+034F Arzuros Cortex
+0350 Arzuros Brace
+0351 Arzuros Brace+
+0352 Arzuros Allbrace
+0353 Lagombi Pelt
+0354 Lagombi Pelt+
+0355 Lagombi Fur
+0356 Lagombi Ear
+0357 Lagombi Ear+
+0358 Lagombi Auricle
+0359 Lagom Plastron
+035A Lagom Plastron+
+035B DUMMY 85
+035C Lagombi Claw
+035D Lagombi Claw+
+035E DUMMY 86
+035F Volvidon Shell
+0360 Voli Carapace
+0361 Volvidon Cortex
+0362 Volvidon Claw
+0363 Volvidon Claw+
+0364 Volvidon Talon
+0365 Volvi Rickrack
+0366 DUMMY 87
+0367 Nibelsnarf Shell
+0368 Nibel Carapace
+0369 Nibel Cortex
+036A Nibelsnarf Hide
+036B Nibelsnarf Hide+
+036C Nibelsnarf Piel
+036D Nibelsnarf Claw
+036E Nibelsnarf Claw+
+036F Nibelsnarf Talon
+0370 Nibelsnarf Scalp
+0371 DUMMY 88
+0372 Vivid Fluid
+0373 Brilliant Fluid
+0374 Dazzling Fluid
+0375 DUMMY 89
+0376 Zinogre Carapace
+0377 Zinofre Cortex
+0378 DUMMY 90
+0379 Zinogre Shocker+
+037A Zin Electrofur+
+037B DUMMY 91
+037C Zinogre Horn+
+037D Zinogre Hardhorn
+037E DUMMY 92
+037F Zinogre Claw+
+0380 Zingore Talon
+0381 Zinogre Tail
+0382 Zinogre Lash
+0383 DUMMY 94
+0384 Zin Electrofur
+0385 Zin D-Shocker
+0386 DUMMY 208
+0387 Zinogre Jasper
+0388 Zin Skymerald
+0389 S.Zin Cortex
+038A S.Zin Dragonhair
+038B S.zin Hardhorn
+038C S.Zinogre Talon
+038D S.Zinogre Lash
+038E S.Zin Dragonshell
+038F S.Zin Skymerald
+0390 Nargacuga Scale+
+0391 Nargacuga Shard
+0392 Nargacuga Mantel
+0393 DUMMY 95
+0394 Nargacuga Fur
+0395 Nargacuga Tail
+0396 Nargacuga Lash
+0397 Narga Tailspike
+0398 Narga Tailspear
+0399 DUMMY 96
+039A Narga Razor+
+039B Nargacuga Fang+
+039C Hvy Narga Fang
+039D Narga Medulla
+039E DUMMY 97
+039F G.Narga Shard
+03A0 DUMMY 98
+03A1 G.Narga Dapples
+03A2 DUMMY 99
+03A3 G.Narga Razor+
+03A4 DUMMY 100
+03A5 Hvy G.Narga Fang
+03A6 L.Narga Shard
+03A7 L.Narga Dapples
+03A8 L.Narga Razor
+03A9 Hvy L.Narga Fang
+03AA Duramboros Shell
+03AB Duram Carapace
+03AC Duram Cortex
+03AD Duram Mossplate
+03AE Hard Mossplate
+03AF Heavy Mossplate
+03B0 Duramboros Hump
+03B1 Marbeld Hump
+03B2 Duram Tailcase
+03B3 Duram Tailcase+
+03B4 Duram Hardtail
+03B5 Duramboros Horn
+03B6 Duramboros Horn+
+03B7 Duram Hardhorn
+03B8 Duram Tailbone
+03B9 Duram Sacrum
+03BA Durambolite
+03BB R.Duram Shell
+03BC R.Duram Plate
+03BD DUMMY 101
+03BE R.Duram Hardtail
+03BF DUMMY 102
+03C0 DUMMY 103
+03C1 Lrg Lobstershell
+03C2 DUMMY 105
+03C3 Plesioth Fang+
+03C4 Hvy Plesio Fang
+03C5 Plesioth Scale+
+03C6 Plesioth Shard
+03C7 Plesioth Fin+
+03C8 Fine Plesio Fin
+03C9 DUMMY 105
+03CA G.Plesio Hard
+03CB DUMMY 107
+03CC Fine G.lesi Fin
+03CD Brach Carapace
+03CE Brach Cortex
+03CF Brach Ebonshell
+03D0 Brach Ebenshell+
+03D1 DUMMY 108
+03D2 DUMMY 109
+03D3 Brach Scalp
+03D4 Brach Scalp+
+03D5 Mystery Slime
+03D6 Glowing Slime
+03D7 Brach Pouder
+03D8 Brach Pouder+
+03D9 Brachydios Tail
+03DA DUMMY 110
+03DB Brachydios Gem
+03DC Brach Pallium
+03DD Miralis Scale
+03DE Miralis Fireback
+03DF Mirelis Fireclaw
+03E0 DUMMY 111
+03E1 DUMMY 112
+03E2 Miralis Evil Eye
+03E3 DUMMY 113
+03E4 Miralis Hellwing
+03E5 DUMMY 114
+03E6 DUMMY 115
+03E7 Miralis Smelter
+03E8 Immortal Heart
+03E9 DUMMY 116
+03EA Gushing Magma
+03EB Dire Dragongem
+03EC Rustshard
+03ED Ancient Shard
+03EE Rusted Fragment
+03EF Large Fragment
+03F0 Slender Fragment
+03F1 Long Fragment
+03F2 Map
+03F3 First-aid Med
+03F4 Ration
+03F5 DUMMY
+03F6 Mini Whetstone
+03F7 EZ Shock Trap
+03F8 EZ Flash Bomb
+03F9 EZ Sonic Bomb
+03FA EZ Max Potion
+03FB EZ Pitfall Trap
+03FC Mini Oxy Supply
+03FD EZ Barel Bomb L
+03FE Ballista Ammo
+03FF Ballista Binder
+0400 DUMMY 117
+0401 Cannon Ammo
+0402 Anti-Dragon Bomb
+0403 Torch
+0404 Paw Pass Ticket
+0405 Royal Honey
+0406 Unique Mushroom
+0407 Choice Mushroom
+0408 Ripened Mushroom
+0409 Great Shroom
+040A Super Sprout
+040B DUMMY 118
+040C DUMMY 119
+040D Sliverfish
+040E DUMMY 120
+040F DUMMY 121
+0410 Goldenfish
+0411 Royal Rhino
+0412 Divine Rhino
+0413 Sliver Cricket
+0414 Gold Cricket
+0415 Auristone Piece
+0416 Auristone Chunk
+0417 Balmstone Piece
+0418 Balmstone Chunk
+0419 Crystal Bone
+041A Golden Bone
+041B Bloodstone
+041C Deep Bloodstone
+041D Coal
+041E Volatile Coal
+041F Wyvern Egg
+0420 Herbivore Egg
+0421 Gargwa Egg
+0422 Gold Gargwa Egg
+0423 DUMMY 206
+0424 Powderstone
+0425 Gargwa Guano
+0426 White Liver
+0427 Slagtoth Oil
+0428 Popo Tongue
+0429 Secret Stash
+042A Round Acorn
+042B Fine Stomach
+042C Luminous Stomach
+042D Giggi Extract
+042E Monster Guts
+042F Red Coral Stone
+0430 Wyvern Tear
+0431 Lrg Wyvern Taer
+0432 Beast Tear
+0433 Lrg Beast Tear
+0434 Bird Coin
+0435 DUMMY 122
+0436 DUMMY 123
+0437 DUMMY 124
+0438 DUMMY 125
+0439 DUMMY 126
+043A DUMMY 127
+043B Leviathan Coin
+043C DUMMY 128
+043D DUMMY 129
+043E DUMMY 130
+043F DUMMY 131
+0440 DUMMY 214
+0441 Pinnacle Coin
+0442 Hunter King Coin
+0443 Voucher
+0444 Gourmet Voucher
+0445 Sharq Ticket
+0446 DUMMY 132
+0447 DUMMY 133
+0448 Thunderclap Diploma
+0449 DUMMY
+044A DUMMY
+044B DUMMY 134
+044C Shadowed Edge
+044D Medal Voucher L
+044E Lion's Claw
+044F Conqeror's Seal
+0450 DUMMY 135
+0451 Commendation
+0452 DUMMY 146
+0453 Pawprint Stamp
+0454 Aquaglow Jewel
+0455 Sunspire Jewel
+0456 Bloodrun Jewel
+0457 Lazurite Jewel
+0458 Paralysis Jwl 1
+0459 Paralysis Jwl 2
+045A Pep Jewel 1
+045B Pep Jewel 2
+045C Steadfast Jwl 1
+045D Standfast Jwl 1
+045E Antidote Jewel 1
+045F Antidote Jewel 2
+0460 Tracker Jewel 1
+0461 Trekker Jewel 1
+0462 Ninja Jewel 1
+0463 Vitality Jewel 1
+0464 Recovery Jewel 1
+0465 Recovery Jewel 2
+0466 Razor Jewel 1
+0467 Razor Jewel 3
+0468 Handicraft Jwl 2
+0469 Handicraft Jwl 3
+046A Fencer Jewel 1
+046B Fencer Jewel 3
+046C Expert Jewel 1
+046D Expert Jewel 2
+046E Expert Jewel 3
+046F Grinder Jewel 1
+0470 Ironwall Jewel 1
+0471 Ironwall Jewel 2
+0472 Shield Jewel 1
+0473 Shield Jewel 2
+0474 Quickload Jwl 1
+0475 Quickload Jwl 2
+0476 Absorber Jewel 1
+0477 Absoerber Jewel 3
+0478 Forceshot Jwl 1
+0479 Forceshot Jwl 3
+047A Pierce Jewel 1
+047B Pierce Jewel 3
+047C Pellet Jewel 1
+047D Pellet Jewel 3
+047E ShotPlus Jewel 1
+047F ShotPlus Jewel 2
+0480 PiercePluss Jwl 1
+0481 DUMMY 137
+0482 PelletPlus Jwl 1
+0483 CragPlus Jewel 1
+0484 ClustPlus Jwl 1
+0485 Disabler Jewel 1
+0486 Disabler Jewel 2
+0487 Element Jewel 1
+0488 Element Jewel 3
+0489 Bombardier Jwl 1
+048A DUMMY 138
+048B Hungerless Jwl 1
+048C Metabolism Jwl 1
+048D Attack Jewel 1
+048E Attack Jewel 2
+048F Attack Jewel 3
+0490 Defense Jewel 1
+0491 Defense Jewel 2
+0492 Protection Jwl 1
+0493 Asylum 1
+0494 Earplug Jewel 1
+0495 Earplug Jewel 3
+0496 Alarm Jewel 1
+0497 Friendship Jwl 1
+0498 Friendship Jwl 2
+0499 Transportr Jwl 1
+049A Fire Res Jewel 1
+049B Water Res Jwl 1
+049C Ice Res Jewel 1
+049D ThunderRes Jwl 1
+049E Dragon Res Jwl 1
+049F Heat Res Jewel 1
+04A0 Cold Res Jewel 1
+04A1 Wind Res Jewel 1
+04A2 Wind Res Jewel 2
+04A3 DUMMY 139
+04A4 Gathering Jwl 1
+04A5 Spree Jewel 1
+04A6 Blessing Jewel 1
+04A7 Fate Jewel 1
+04A8 Fate Jewel 3
+04A9 DUMMY 140
+04AA Psychic Jewel 1
+04AB Medicine Jewel 1
+04AC Medicine Jewel 2
+04AD Professor Jewel 1
+04AE Factory Jewel 1
+04AF Evasion Jewel 1
+04B0 Evasion Jewel 2
+04B1 Potential Jwl 1
+04B2 Potential Jwl 2
+04B3 Enduring Jewel 1
+04B4 Sprinter Jewel 1
+04B5 Sprinter Jewel 3
+04B6 Capacity Jewel 2
+04B7 Capacity Jewel 3
+04B8 Sniper Jewel 1
+04B9 Gobbler Jewel 1
+04BA Gobbler Jewel 3
+04BB Carver Jewel 1
+04BC Carver Jewel 3
+04BD Footing Jewel 1
+04BE Tectonic Jewel 1
+04BF DUMMY 141
+04C0 Jumping Jewel 1
+04C1 DUMMY 142
+04C2 Draw Jewel 1
+04C3 Draw Jewel 2
+04C4 Trapmaster Jwl 1
+04C5 Physique Jewel 1
+04C6 Physique Jewel 2
+04C7 Capture Jewel 1
+04C8 Capture Jewel 3
+04C9 Perception Jwl 1
+04CA Charger Jewel 1
+04CB Charger Jewel 3
+04CC Fresh Air Jwl 1
+04CD Stopflow Jewel 1
+04CE Swimmer Jewel 1
+04CF Diver Jewel 1
+04D0 Gambit Jewel 1
+04D1 Gambit Jewel 3
+04D2 Resitor Jewel 1
+04D3 Release Jewel 2
+04D4 Catalyst Jewel 3
+04D5 Fortitude Jwl 1
+04D6 Fortitude Jwl 2
+04D7 Salvo Jewel 1
+04D8 Salvo Jewel 3
+04D9 Dungmaster Jwl 1
+04DA Torchlight Jwl 1
+04DB (No Mask)
+04DC BBQ With Mask
+04DD Sharpen w/Mask
+04DE Return Via Mask
+04DF Slime S
+04E0 DUMMY 143
+04E1 Flying Wyverns Vol 1
+04E2 Flying Wyverns Vol 2
+04E3 Flying Wyverns Vol 3
+04E4 Bird Wyverns Vol 1
+04E5 Bird Wyverns Vol 2
+04E6 Brute Wyverns Vol 1
+04E7 Brute Wyverns Vol 2
+04E8 Brute Wyverns VOl 3
+04E9 Leviathans Vol 1
+04EA Leviathans Vol 2
+04EB Leviathans Vol 3
+04EC Fanged Wyverns Vol 1
+04ED Fanged Wyverns Vol 2
+04EE Fanged Beasts
+04EF Invalid Message
+04F0 Piscine Wyverns
+04F1 Elder Dragons Vol 1
+04F2 Elder Dragons Vol 2
+04F3 Elder Dragons Vol 3
+04F4 Lynians
+04F5 Neopteron
+04F6 Herbivores Vol 1
+04F7 Herbivores Vol 2
+04F8 Deviljho
+04F9 Brachydios
+04FA Dire Miralis
+04FB Plesioth Vol 1
+04FC Plesioth Vol 2
+04FD Deadorant
+04FE Emperor Jopper
+04FF Elder Dragonbone
+0500 DUMMY 145
+0501 Purecrystak
+0502 Admant Orb
+0503 Lagiacrus Piel
+0504 DUMMY 146
+0505 Nightmarish Maw
+0506 DUMMY 147
+0507 DUMMY 148
+0508 DUMMY 149
+0509 Slime Coating
+050A DUMMY 150
+050B Blossom Cricket
+050C L.Narg Tailspear
+050D DUMMY 151
+050E G.Narg Tailspear
+050F DUMMY 152
+0510 Agnaktor Cortex
+0511 Revolting Piel
+0512 Cryo Sac
+0513 Flood Sac
+0514 Monster Essence
+0515 DUMMY 153
+0516 Massive Bone
+0517 DUMMY 154
+0518 Prized Pelt
+0519 DUMMY 155
+051A DUMMY 156
+051B Speartuna
+051C Nargacuga Pelt+
+051D Narga Razor
+051E VE Ticket
+051F VE Deluxe Ticket
+0520 VE Bronze Ticket
+0521 VE Sliver Ticket
+0522 VE Golden Ticket
+0523 VE Cosmic Ticket
+0524 DUMMY 157
+0525 DUMMY 158
+0526 Maiden Butterfly
+0527 DUMMY 159
+0528 DUMMY 160
+0529 DUMMY 161
+052A DUMMY 162
+052B DUMMY 163
+052C Chum-Chum Ticket
+052D DUMMY 164
+052E Lagia Hardhorn
+052F DUMMY 165
+0530 DUMMY 166
+0531 DUMMY 167
+0532 Heftcorn
+0533 DUMMY 210
+0534 DUMMY 212
+0535 Bullfango Tusk
+0536 DUMMY 168
+0537 DUMMY 169
+0538 DUMMY 170
+0539 Butterfly Beetle
+053A DUMMY 171
+053B DUMMY 172
+053C Diablos Hardtail
+053D Barroth Lash
+053E DUMMY 173
+053F DUMMY 174
+0540 DUMMY 175
+0541 Scalding PLeura
+0542 DUMMY 176
+0543 Crested Crown
+0544 Ryal Crest
+0545 Realmless Crown
+0546 Giant Fossil
+0547 DUMMY 177
+0548 R.Ludroth Lash
+0549 Mohran Shard
+054A Mohran Rockskin
+054B Mohran Allbrace
+054C Rathalos Wing
+054D Pesioth Webbing
+054E Hrd Ples Webbing
+054F Fish
+0550 DUMMY 178
+0551 DUMMY 179
+0552 Small Golden Egg
+0553 Bronze Coin
+0554 Silver Coin
+0555 Gold Coin
+0556 Sparkiy Fragment
+0557 Plesioth Head
+0558 Uber Plesio Head
+0559 Beast Coin
+055A Flying Coin
+055B Piscine Coin
+055C Brute Coin
+055D Port Gal (Red)
+055E Port Gal (Blue)
+055F Port Gal (Green)
+0560 Port Gal (White)
+0561 Slickaxe
+0562 Mooncatcher Fang
+0563 Glossy Scale
+0564 DUMMY 180
+0565 DUMMY 181
+0566 DUMMY 182
+0567 DUMMY 183
+0568 DUMMY 184
+0569 DUMMY 185
+056A DUMMY 186
+056B DUMMY 187
+056C DUMMY 188
+056D DUMMY 189
+056E DUMMY 190
+056F DUMMY 191
+0570 Thick Skull
+0571 Sarvory Bear Paw
+0572 Peco Pipes
+0573 Billowy Mane
+0574 Volvidon Tongue
+0575 Quality Mud Pack
+0576 DUMMY 192
+0577 DUMMY 193
+0578 Rathian Loin
+0579 Tender Liver
+057A P.Rathian Loin
+057B Supersized Scale
+057C Rathalos Ribs
+057D Prime Plesioth
+057E Diablos Heart
+057F Bag of Zs
+0580 Large Obsidian
+0581 Duram Truffle
+0582 DUMMY 194
+0583 Zinogre Head
+0584 DUMMY 195
+0585 Nargacuga Eye
+0586 Celestial Scale
+0587 Alabaster Scale
+0588 Worldeater Belly
+0589 DUMMY 196
+058A DUMMY 197
+058B DUMMY 198
+058C DUMMY 199
+058D DUMMY 200
+058E DUMMY 201
+058F DUMMY 202
+0590 DUMMY 203
+0591 DUMMY 204
+0592 DUMMY 205
+0593 Exquisite Meat
+0594 DUMMY
+0595 Top Secret Formula
+0596 Flashbolt Diploma
+0597 DUMMY 207
+0598 DUMMY
+0599 Captain's IOU
+059A Hades's Skull
+059B DUMMY
+059C Crown of Glory
+059D DUMMY
+059E DUMMY
+059F Medal Voucher G
+05A0 Far East Sword
+05A1 DUMMY
+05A2 DUMMY
+05A3 Miniature Ticket
+05A4 Fierce Soul
+05A5 DUMMY 220
+05A6 Flying Wyverns Vol 4
+05A7 Flying Wyverns Vol 5
+05A8 Def Lock Jewel 1
+05A9 Sterile Jewel 1
+05AA Aseptic Juwel 1
+05AB Blaze Jewel 1
+05AC Blaze Jewel 2
+05AD Stream Jewel 1
+05AE Stream Jewel 2
+05AF Bolt Jewel 1
+05B0 Bolt Jewel 2
+05B1 Frost Jewel 1
+05B2 Frost Jewel 2
+05B3 Dragon Jewel 1
+05B4 Dragon Jewel 2
+05B5 Tenderizer Jwl 1
+05B6 Tenderizer Jwl 3
+05B7 Destroyer Jwl 1
+05B8 Destroyer Jwl 3
+05B9 Throttle Jewel 1
+05BA Throttle Jewel 2
+05BB KO Jewel 1
+05BC Drain Jewel 1
+05BD Drain Jewel 2
+05BE Sonorous Jewel 1
+05BF Artillery Jwl 1
+05C0 Resistor Jewel 3
+05C1 Nul-Fire Jewel 1
+05C2 Nul-Water Jwl 1
+05C3 Nul-Thundr Jwl 1
+05C4 Nul-Ice Jewel 1
+05C5 Nul-Dragon Jwl 1
+05C6 Sheath Jewel 1
+05C7 Steath Jewel 2
+05C8 Refresh Jewel 1
+05C9 Refresh Jewel 2
+05CA Ranger Jewel 1
+05CB SlicePlus Jwl 1
+05CC Paracoat Jewel 1
+05CD Paracoat Jewel 2
+05CE Sleepcoat Jwl 1
+05CF Poisoncoat Jwl 1
+05D0 Powercoat Jwl 1
+05D1 Powercoat Jwl 2
+05D2 Rangecoat Jwl 1
+05D3 Draincoat Jwl 1
+05D4 Stopflow Jewel 2
+05D5 Guts Jewel 1
+05D6 Guts Jewel 2
+05D7 Meateater Jwl 1
+05D8 Meatlover Jwl 1
+05D9 Slider Jewel 1
+05DA Glider Jewel 1
+05DB Honeybee Jewel 1
+05DC Queenbee Jewel 1
+05DD Biology Jewel 1
+05DE Microbio Jewel 1
+05DF Spirit Jewel 1
+05E0 Spirit Jewel 2
+05E1 Flawless Jewel 1
+05E2 Flawless Jewel 2
+05E3 Steady Jewel 1
+05E4 Steady Jewel 3
+05E5 Fish Jewel 1
+05E6 Fish Jewel 2
+05E7 Player Jewel 1
+05E8 Morale Jewel 1
+05E9 Leader Jewel 1
+05EA Leader Jewel 2
+05EB Dust of Life
+05EC KO Jewel 2
+05ED Diablos Hardhorn
+05EE Ghostly Quartz
+05EF Crushing Fang
+05F0 Cloudy Moonshard
+05F1 Bulky Pelt
+05F2 Excellent Fang
+05F3 Fish with Mask
+05F4 Gloamgrass Bud
+05F5 Platinum Needle
+05F6 Goldmine Fang
+05F7 Wyverngold Lore
+05F8 Charmer Jewel 1
+05F9 Dracophage Bug
+05FA Tanzia Chips
+05FB SlimePlus Jwl 1
+05FC Slimecoat Jwl 1
