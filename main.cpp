@@ -1,6 +1,3 @@
-#include "coffre.hpp"
-#include "item.hpp"
-
 #include <iostream>
 #include <sstream>
 #include <iomanip>
@@ -20,14 +17,6 @@ void swapByteOrder(short & us)
     us = (us >> 8) |
          (us << 8);
 }
-/*
-ostream & operator<< (ostream & os, map<unsigned int, unsigned int> & inventaire)
-{
-	map<unsigned int, unsigned int>::iterator début = inventaire.begin(), fin = inventaire.end(), it;
-	for (it = début; it != fin; it++)
-		return os << "Vous avez " << it->second << " " << itemID[it->first - 1] << " dans votre coffre." << endl;
-	return os;
-}*/
 
 int main (void)
 {
@@ -97,12 +86,12 @@ int main (void)
 		swapByteOrder(id_item_act);
 		fich_save.read((char *)&nb_item_act, sizeof(short));
 		swapByteOrder(nb_item_act);
-		coffre[id_item_act] = nb_item_act;
+		coffre[id_item_act - 1] = nb_item_act;
 	}
 	fich_save.close();
 	map<unsigned int, unsigned int>::iterator début = coffre.begin(), fin = coffre.end(), it;
 	for (it = début; it != fin; it++)
-		cout << "Vous avez " << it->second << " " << itemID[it->first - 1] << " dans votre coffre." << endl;
+			cout << "Vous avez " << it->second << " " << "(id: " << it->first << ") " << itemID[it->first] << " dans votre coffre." << endl;
 	return 0;
 }
 
