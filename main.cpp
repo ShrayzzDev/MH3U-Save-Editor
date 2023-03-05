@@ -49,6 +49,7 @@ int main (void)
 		itemID.push_back(nom);
 	}
 	fich_nom_item.close();
+	cout << itemID[200] << endl;
 	fstream fich_save;
 	fich_save.open("./user1",ios::in | ios::binary);
 	if (! fich_save.is_open())
@@ -86,6 +87,8 @@ int main (void)
 		swapByteOrder(id_item_act);
 		fich_save.read((char *)&nb_item_act, sizeof(short));
 		swapByteOrder(nb_item_act);
+		//Vérifie si l'objet n'existe pas déjà dans la map
+		//Et si c'est le cas, on rajoute le nombre qu'on vient de trouver à celui déjà existant.
 		if (auto trouve = coffre.find(id_item_act - 1); trouve != coffre.end())
 			trouve->second = trouve->second + nb_item_act;
 		else
@@ -94,7 +97,7 @@ int main (void)
 	fich_save.close();
 	map<unsigned int, unsigned int>::iterator début = coffre.begin(), fin = coffre.end(), it;
 	for (it = début; it != fin; it++)
-			cout << "Vous avez " << it->second << " " << "(id: " << it->first << ") " << itemID[it->first] << " dans votre coffre." << endl;
+			cout << "Vous avez " << it->second << " " << "(id: " << it->first - 1<< ") " << itemID[it->first] << " dans votre coffre." << endl;
 	return 0;
 }
 
