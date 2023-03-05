@@ -86,7 +86,10 @@ int main (void)
 		swapByteOrder(id_item_act);
 		fich_save.read((char *)&nb_item_act, sizeof(short));
 		swapByteOrder(nb_item_act);
-		coffre[id_item_act - 1] = nb_item_act;
+		if (auto trouve = coffre.find(id_item_act - 1); trouve != coffre.end())
+			trouve->second = trouve->second + nb_item_act;
+		else
+			coffre[id_item_act - 1] = nb_item_act;
 	}
 	fich_save.close();
 	map<unsigned int, unsigned int>::iterator début = coffre.begin(), fin = coffre.end(), it;
