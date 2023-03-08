@@ -36,8 +36,11 @@ void chargementID(vector<string> & itemID)
 	fich_nom_item.close();
 }
 
+
+// PROBLEME: Pour une raison indeterminée, remaplce parfois le premier octet des items par des ff
+// Plus fait apparaître des items en pleins milieu (retrouve pas ce qu'il y en recherchant les valeurs hex dans le fichier)
 fstream fich_save;
-void chargementCoffre(vector<int> & la_merde_avant_le_coffre, map<unsigned int, unsigned int> & coffre)
+void chargementCoffre(vector<unsigned short> & la_merde_avant_le_coffre, map<unsigned short, unsigned short> & coffre)
 {
 	fich_save.open("./user1",ios::in | ios::binary);
 	if (! fich_save.is_open())
@@ -48,6 +51,7 @@ void chargementCoffre(vector<int> & la_merde_avant_le_coffre, map<unsigned int, 
 	//432 correspond à l'offset (1B0) du début du coffre
 	//On divise par deux car 1 hexa = 1 short, et un short = 2 int (en taille)
 	//(et on utilise des short car utilisent moins de mémoire, et on manipule par 2 octets et un int en fait 4)
+	//Et on redivise par 10 car il y a 10 pages dans le coffre.
 	unsigned short taille_avant_coffre =  432/2;
 	//Pleins de chiffres hexadécimaux qui me servent pas tant que je fait que le coffre
 	//Viendra à changer si je fait autre chose.
@@ -62,14 +66,15 @@ void chargementCoffre(vector<int> & la_merde_avant_le_coffre, map<unsigned int, 
 	//Et on divise toujours par 2 pour les mêmes raisons
 	unsigned short taille_coffre = 4432/2 - 432/2 ;
 	cout << taille_coffre << endl;
-	for (unsigned short rep = 0; rep < taille_coffre; rep++)
+	for (int rep = 0; rep < taille_coffre; rep++)
 	{
 		//faudra probablement penser à les re byte-swap à la fin
 		fich_save.read((char *)&id_item_act, sizeof(short));
 		swapByteOrder(id_item_act);
 		fich_save.read((char *)&nb_item_act, sizeof(short));
 		swapByteOrder(nb_item_act);
-		//Vérifie si l'objet n'existe pas déjà dans la map
+		cout << hex << id_item_act << " " << nb_item_act << endl;
+		//Vérifie si l'item n'existe pas déjà dans la map
 		//Et si c'est le cas, on rajoute le nombre qu'on vient de trouver à celui déjà existant.
 		if (auto trouve = coffre.find(id_item_act - 1); trouve != coffre.end())
 			trouve->second = trouve->second + nb_item_act;

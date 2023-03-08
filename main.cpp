@@ -1,5 +1,4 @@
 #include <iostream>
-#include <sstream>
 #include <iomanip>
 #include <fstream>
 #include <vector>
@@ -7,11 +6,17 @@
 #include <map>
 #include <algorithm>
 #include <string>
-#include <limits>
 
 #include "saveEditior.hpp"
 
 using namespace std;
+
+ostream & operator<<(ostream & os, map<unsigned short, unsigned short> & coffre)
+{
+	for (pair<unsigned short, unsigned short> item : coffre)
+		os << "Vous avez " <<  item.second << " item(s) d'id " << item.first << endl;
+	return os;
+}
 
 int main (void)
 {
@@ -19,16 +24,27 @@ int main (void)
 	//istringstream temp_pour_convertir;
 	vector<string> itemID;
 	chargementID(itemID);
-	vector<int> la_merde_avant_le_coffre;
+	vector<unsigned short> la_merde_avant_le_coffre;
 	//La clé c'est l'id en hexa
 	//La valeur c'est le nombre d'item dans le coffre
 	//C'est possible sachant que un item peux pas être présent plusieurs fois dans le coffre
 	//C'est pas comme un coffre Minecraft
-	map<unsigned int, unsigned int> coffre;
+	map<unsigned short, unsigned short> coffre;
 	chargementCoffre(la_merde_avant_le_coffre,coffre);
-	map<unsigned int, unsigned int>::iterator début = coffre.begin(), fin = coffre.end(), it;
+	string testNomItem = "Organizer Guide";
+	ajouterItem(coffre,8);
+	ajouterItem(coffre,4522);
+	cout << "Avant fonction" << endl;
+	ajouterItem(coffre,testNomItem,itemID);
+	map<unsigned short, unsigned short>::iterator début = coffre.begin(), fin = coffre.end(), it;
 	for (it = début; it != fin; it++)
-			cout << "Vous avez " << it->second << " " << "(id: " << it->first << ") " << itemID[it->first] << " dans votre coffre." << endl;
+	{
+		if (it->first == 0)
+			cout << "Cet emplacement est vide" << endl;
+		else 
+			cout << "Vous avez " << dec << it->second << " " << "(id: " << hex << it->first << ") " << itemID[it->first] << " dans votre coffre." << endl;
+	}
+	cout << coffre << endl;
 	return 0;
 }
 
