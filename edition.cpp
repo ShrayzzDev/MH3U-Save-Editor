@@ -2,7 +2,6 @@
 #include <vector>
 #include <map>
 #include <iostream>
-#include <windows.h>
 
 #include "saveEditior.hpp"
 

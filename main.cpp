@@ -37,13 +37,18 @@ int main (void)
 	cout << "Avant fonction" << endl;
 	ajouterItem(coffre,testNomItem,itemID);
 	changerQte(coffre);
-	map<unsigned short, unsigned short>::iterator début = coffre.begin(), fin = coffre.end(), it;
-	for (it = début; it != fin; it++)
+    map<unsigned short, unsigned short>::iterator debut = coffre.begin(), fin = coffre.end(), it;
+    for (it = debut; it != fin; ++it)
 	{
 		if (it->first == 0)
 			cout << "Cet emplacement est vide" << endl;
-		else 
-			cout << "Vous avez " << dec << it->second << " " << "(id: " << hex << it->first << ") " << itemID[it->first] << " dans votre coffre." << endl;
+        else {
+            if (it->first < itemID.size() ) {
+                cout << "Vous avez " << dec << it->second << " " << "(id: " << hex << it->first << ") " << itemID.at(it->first) << " dans votre coffre." << endl;
+            } else {
+                cerr << "Unknown item id : " << it->first << endl;
+            }
+        }
 	}
 	cout << coffre << endl;
 	return 0;
