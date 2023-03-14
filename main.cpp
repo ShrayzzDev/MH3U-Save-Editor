@@ -32,10 +32,11 @@ int main (void)
 	map<unsigned short, unsigned short> coffre;
 	chargementCoffre(la_merde_avant_le_coffre,coffre);
 	string testNomItem = "Organizer Guide";
-	ajouterItem(coffre,8);
-	ajouterItem(coffre,4522);
+	//ajouterItem(coffre,8);
+	//ajouterItem(coffre,4522);
 	cout << "Avant fonction" << endl;
 	ajouterItem(coffre,testNomItem,itemID);
+	changerQte(coffre);
 	map<unsigned short, unsigned short>::iterator début = coffre.begin(), fin = coffre.end(), it;
 	for (it = début; it != fin; it++)
 	{

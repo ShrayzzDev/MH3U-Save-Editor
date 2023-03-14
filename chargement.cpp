@@ -66,17 +66,18 @@ void chargementCoffre(vector<unsigned short> & la_merde_avant_le_coffre, map<uns
 	//Et on divise toujours par 2 pour les mêmes raisons
 	unsigned short taille_coffre = 4432/2 - 432/2 ;
 	cout << taille_coffre << endl;
+	map<unsigned short, unsigned short>::iterator fin = coffre.end();
 	for (int rep = 0; rep < taille_coffre; rep++)
 	{
 		//faudra probablement penser à les re byte-swap à la fin
 		fich_save.read((char *)&id_item_act, sizeof(short));
 		swapByteOrder(id_item_act);
 		fich_save.read((char *)&nb_item_act, sizeof(short));
-		swapByteOrder(nb_item_act);
+		swapByteOrder(nb_item_act); 
 		cout << hex << id_item_act << " " << nb_item_act << endl;
 		//Vérifie si l'item n'existe pas déjà dans la map
-		//Et si c'est le cas, on rajoute le nombre qu'on vient de trouver à celui déjà existant.
-		if (auto trouve = coffre.find(id_item_act - 1); trouve != coffre.end())
+		//Et si c'est le cas, on rajoute le nombre qu'on vient de trouver à celui déjà existant
+		if (auto trouve = coffre.find(id_item_act - 1); trouve != fin)
 			trouve->second = trouve->second + nb_item_act;
 		else
 			coffre[id_item_act - 1] = nb_item_act;

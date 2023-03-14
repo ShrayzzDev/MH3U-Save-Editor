@@ -17,17 +17,15 @@ void chargementCoffre(std::vector<unsigned short> & la_merde_avant_le_coffre, st
 
 //Renvoie un bool, true si l'objet est déjà dans le coffre.
 bool vérifPossItem(std::map<unsigned short, unsigned short> & coffre, unsigned short itemID);
-
 //Renvoie l'id d'un Item à partir de son nom
 unsigned short chercheIdAvecNom(std::vector<std::string> & itemID, std::string & nomItem);
-
 //Ajoute un item dans le coffre à partir du nom de l'item
 void ajouterItem(std::map<unsigned short, unsigned short> & coffre, std::string & nomItem, std::vector<std::string> & itemID);
-
 //Ajoute un item dans le coffre à partir de l'id de l'item
 void ajouterItem(std::map<unsigned short, unsigned short> & coffre, unsigned short idItem);
-
 //Ajoute concrétement l'item dans le coffre, renvoie un bool (true si ça marche bien, false sinon)
 bool ajouterUnItemAvecID (std::map<unsigned short, unsigned short> & coffre, unsigned short idItem);
+//Change la quantité d'un item déjà dans le coffre.
+void changerQte(std::map<unsigned short, unsigned short> & coffre);
 
 #endif
