@@ -27,6 +27,7 @@ void chargementID(vector<string> & itemID)
 		exit(1);
 	}
 	string val,nom = "rien";
+    itemID.push_back("NULL");
     while ( fich_nom_item.good() )
     {
         if ( ! getline(fich_nom_item,val,' ').good() )
@@ -47,29 +48,21 @@ void chargementCoffre(vector<unsigned short> & la_merde_avant_le_coffre, map<uns
 	fich_save.open("./user1",ios::in | ios::binary);
 	if (! fich_save.is_open())
 	{
-		cout << "Erreur, le fichier de sauvegarde n'a pas pu être ouvert" << endl;
+		cerr << "Erreur, le fichier de sauvegarde n'a pas pu être ouvert" << endl;
 		exit(2);
 	}
-	//432 correspond à l'offset (1B0) du début du coffre
-    //On divise par deux car 1 hexa = 1 unsigned short, et un unsigned short = 2 int (en taille)
-    //(et on utilise des unsigned short car utilisent moins de mémoire, et on manipule par 2 octets et un int en fait 4)
-	//Et on redivise par 10 car il y a 10 pages dans le coffre.
+	// 432 correspond à l'offset (1B0) du début du coffre
+    // On divise par deux car 1 hexa = 1 unsigned short (2 octets), et un unsigned short = int (4 octets)/2 (en taille)
+    // (et on utilise des unsigned short car utilisent moins de mémoire, et on manipule par 2 octets et un int en fait 4)
+	// Et on redivise par 10 car il y a 10 pages dans le coffre.
     unsigned short taille_avant_coffre =  432/2;
-	//Pleins de chiffres hexadécimaux qui me servent pas tant que je fait que le coffre
-	//Viendra à changer si je fait autre chose.
-
-    for (unsigned short rep = 0; rep < taille_avant_coffre; rep++)
-    {
-        unsigned short temp;
-        fich_save.read((char *)&temp, sizeof(unsigned short));
-		la_merde_avant_le_coffre.push_back(temp);
-    } // allez voir seek : https://en.cppreference.com/w/cpp/io/basic_istream/seekg
-	//4432 correspond à l'offset du début du coffre à équipement (donc la fin de celui à item)
-	//Donc la taille du coffre = offset du coffre à équipement - celui du coffre à item
-	//Et on divise toujours par 2 pour les mêmes raisons
-    unsigned short taille_coffre = 4432/2 - 432/2 ;
-	cout << taille_coffre << endl;
-
+    // allez voir seek : https://en.cppreference.com/w/cpp/io/basic_istream/seekg
+	// 4432 correspond à l'offset du début du coffre à équipement (donc la fin de celui à item)
+	// Donc la taille du coffre = offset du coffre à équipement - celui du coffre à item
+	// Et on divise toujours par 2 pour les mêmes raisons
+    unsigned short taille_coffre = 4432/4 - taille_avant_coffre ;
+	//cout << taille_coffre << endl;
+    fich_save.seekg(taille_avant_coffre);
 	for (int rep = 0; rep < taille_coffre; rep++)
 	{
         unsigned short id_item_act,  nb_item_act;
@@ -79,8 +72,8 @@ void chargementCoffre(vector<unsigned short> & la_merde_avant_le_coffre, map<uns
 		swapByteOrder(id_item_act);
         fich_save.read((char *)&nb_item_act, sizeof(unsigned short));
         swapByteOrder(nb_item_act);
-        --id_item_act; // Start at 0 please!
-        cout << hex << id_item_act << " " << nb_item_act << endl;
+        //--id_item_act; // Start at 0 please!
+        //cout /*<< hex*/ << id_item_act << " " << nb_item_act << endl;
 		//Vérifie si l'item n'existe pas déjà dans la map
 		//Et si c'est le cas, on rajoute le nombre qu'on vient de trouver à celui déjà existant
         if (auto trouve = coffre.find(id_item_act); trouve == coffre.end() )

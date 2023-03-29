@@ -18,12 +18,20 @@ ostream & operator<<(ostream & os, map<unsigned short, unsigned short> & coffre)
 	return os;
 }
 
+ostream & operator<<(ostream & os, vector<string> & itemID)
+{
+	for (int i = 0; i < itemID.size(); i++)
+		os << "Id de l'item: " << i << endl << "Nom Correspondant " << itemID.at(i) << endl;
+	return os;
+}
+
 int main (void)
 {
 	//Item item1{0x3,5};
 	//istringstream temp_pour_convertir;
 	vector<string> itemID;
 	chargementID(itemID);
+	//cout << itemID << endl;
 	vector<unsigned short> la_merde_avant_le_coffre;
 	//La clé c'est l'id en hexa
 	//La valeur c'est le nombre d'item dans le coffre
@@ -31,12 +39,11 @@ int main (void)
 	//C'est pas comme un coffre Minecraft
 	map<unsigned short, unsigned short> coffre;
 	chargementCoffre(la_merde_avant_le_coffre,coffre);
-	string testNomItem = "Organizer Guide";
+	//string testNomItem = "Organizer Guide";
 	//ajouterItem(coffre,8);
 	//ajouterItem(coffre,4522);
-	cout << "Avant fonction" << endl;
-	ajouterItem(coffre,testNomItem,itemID);
-	changerQte(coffre);
+	//ajouterItem(coffre,testNomItem,itemID);
+	//changerQte(coffre);
     map<unsigned short, unsigned short>::iterator debut = coffre.begin(), fin = coffre.end(), it;
     for (it = debut; it != fin; ++it)
 	{
@@ -44,13 +51,13 @@ int main (void)
 			cout << "Cet emplacement est vide" << endl;
         else {
             if (it->first < itemID.size() ) {
-                cout << "Vous avez " << dec << it->second << " " << "(id: " << hex << it->first << ") " << itemID.at(it->first) << " dans votre coffre." << endl;
+                cout << "Vous avez " << hex << it->second << " " << "(id: " << hex << it->first << ") " << itemID.at(it->first) << " dans votre coffre." << endl;
             } else {
                 cerr << "Unknown item id : " << it->first << endl;
             }
         }
 	}
-	cout << coffre << endl;
+	//cout << coffre << endl;
 	return 0;
 }
 
