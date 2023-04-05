@@ -7,7 +7,7 @@ all: exe
 clean:
 	rm -f *.o exe 
 
-exe: main.o chargement.o edition.o
+exe: main.o chargement.o edition.o sauvegarde.cpp
 	$(CXX) $(CPPFLAGS) $+ -o $@
 
 %.o: %.cpp
@@ -18,3 +18,5 @@ main.o: main.cpp saveEditior.hpp
 chargement.o: chargement.cpp saveEditior.hpp
 
 edition.o: edition.cpp saveEditior.hpp
+
+sauvegarde.o: sauvegarde.cpp saveEditior.hpp

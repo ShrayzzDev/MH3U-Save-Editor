@@ -32,13 +32,13 @@ int main (void)
 	vector<string> itemID;
 	chargementID(itemID);
 	//cout << itemID << endl;
-	vector<unsigned short> la_merde_avant_le_coffre;
+	vector<unsigned short> la_merde_avant_le_coffre, la_merde_apres_le_coffre;
 	//La clé c'est l'id en hexa
 	//La valeur c'est le nombre d'item dans le coffre
 	//C'est possible sachant que un item peux pas être présent plusieurs fois dans le coffre
 	//C'est pas comme un coffre Minecraft
 	map<unsigned short, unsigned short> coffre;
-	chargementCoffre(la_merde_avant_le_coffre,coffre);
+	chargementCoffre(la_merde_avant_le_coffre,coffre,la_merde_apres_le_coffre);
 	//string testNomItem = "Organizer Guide";
 	//ajouterItem(coffre,8);
 	//ajouterItem(coffre,4522);
@@ -57,6 +57,7 @@ int main (void)
             }
         }
 	}
+    sauvegarde(la_merde_avant_le_coffre,coffre,la_merde_apres_le_coffre);
 	//cout << coffre << endl;
 	return 0;
 }
