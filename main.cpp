@@ -27,16 +27,11 @@ ostream & operator<<(ostream & os, vector<string> & itemID)
 
 int main (void)
 {
-	//Item item1{0x3,5};
-	//istringstream temp_pour_convertir;
 	vector<string> itemID;
 	chargementID(itemID);
-	//cout << itemID << endl;
 	vector<unsigned short> la_merde_avant_le_coffre, la_merde_apres_le_coffre;
-	//La clé c'est l'id en hexa
-	//La valeur c'est le nombre d'item dans le coffre
-	//C'est possible sachant que un item peux pas être présent plusieurs fois dans le coffre
-	//C'est pas comme un coffre Minecraft
+	// The key is the id
+	// Value is the quantity of the item
 	map<unsigned short, unsigned short> coffre;
 	chargementCoffre(la_merde_avant_le_coffre,coffre,la_merde_apres_le_coffre);
 	//string testNomItem = "Organizer Guide";
@@ -58,48 +53,5 @@ int main (void)
         }
 	}
     sauvegarde(la_merde_avant_le_coffre,coffre,la_merde_apres_le_coffre);
-	//cout << coffre << endl;
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//istringstream temp(val);
-//unsigned int hex_temp		
-//temp >> hex >> hex_temp;
-
-	/* ligne, nom_item = "";
-	char test;
-	int id;
-	fich_nom_item >> id;
-	fich_nom_item.get(test);
-	while (test != '\n')
-	{
-		nom_item = nom_item + test;
-		fich_nom_item.get(test);
-	}
-	itemID.push_back(nom_item);
-	while (getline(fich_nom_item,ligne))
-	{
-		string nom_item = "";
-		fich_nom_item >> id;
-		fich_nom_item.get(test);
-		while (test != '\n')
-		{
-			nom_item = nom_item + test;
-			fich_nom_item.get(test);
-		}
-		itemID.push_back(nom_item);
-	}
-	cout << item1.getName(itemID) << endl;*/

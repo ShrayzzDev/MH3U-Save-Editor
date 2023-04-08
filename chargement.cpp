@@ -8,7 +8,7 @@
 
 using namespace std;
 
-//Permet de Endian Swap
+// Endian Swap
 void swapByteOrder(unsigned short & us)
 {
     us = (us >> 8) |
@@ -39,9 +39,6 @@ void chargementID(vector<string> & itemID)
 	}
 }
 
-
-// PROBLEME: Pour une raison indeterminée, remaplce parfois le premier octet des items par des ff
-// Plus fait apparaître des items en pleins milieu (retrouve pas ce qu'il y en recherchant les valeurs hex dans le fichier)
 void chargementCoffre(vector<unsigned short> & la_merde_avant_le_coffre, map<unsigned short, unsigned short> & coffre, vector<unsigned short> & la_merde_apres_le_coffre)
 {
     ifstream fich_save;
@@ -51,10 +48,9 @@ void chargementCoffre(vector<unsigned short> & la_merde_avant_le_coffre, map<uns
 		cerr << "Erreur, le fichier de sauvegarde n'a pas pu être ouvert" << endl;
 		exit(2);
 	}
-	// 432 correspond à l'offset (1B0) du début du coffre
-    // On divise par deux car 1 hexa = 1 unsigned short (2 octets), et un unsigned short = int (4 octets)/2 (en taille)
-    // (et on utilise des unsigned short car utilisent moins de mémoire, et on manipule par 2 octets et un int en fait 4)
-	// Et on redivise par 10 car il y a 10 pages dans le coffre.
+	// 432 correspond to the offset (1B0) of the beginning of the chest
+    // I divde by 2 beacause 1 hexa = 1 unsigned short (2 octets), and an unsigned short = int (4 octets)/2 (in size)
+    // (and we use unsigned short because they take less space, and we only need 2 bytes space)
     unsigned short taille_avant_coffre =  432/2;
     for (int rep = 0; rep <= taille_avant_coffre; ++rep)
     {
@@ -63,24 +59,22 @@ void chargementCoffre(vector<unsigned short> & la_merde_avant_le_coffre, map<uns
         la_merde_avant_le_coffre.push_back(id_act);
     }
     // allez voir seek : https://en.cppreference.com/w/cpp/io/basic_istream/seekg
-	// 4432 correspond à l'offset du début du coffre à équipement (donc la fin de celui à item)
-	// Donc la taille du coffre = offset du coffre à équipement - celui du coffre à item
-	// Et on divise toujours par 2 pour les mêmes raisons
+	// 4432 correspond to the offset of the beginning of the equipement chest (and so, the end off the item one)
+	// So, size of the chest= offset of the equipement chest - item chest
+	// And there we divide by 4 bc 
     unsigned short taille_coffre = 4432/4 - taille_avant_coffre ;
-	//cout << taille_coffre << endl;
     fich_save.seekg(taille_avant_coffre);
 	for (int rep = 0; rep < taille_coffre; rep++)
 	{
         unsigned short id_item_act,  nb_item_act;
 
-		//faudra probablement penser à les re byte-swap à la fin
+		// should byte swap again when saving
         fich_save.read((char *)&id_item_act, sizeof(unsigned short));
 		swapByteOrder(id_item_act);
         fich_save.read((char *)&nb_item_act, sizeof(unsigned short));
         swapByteOrder(nb_item_act);
-        //cout /*<< hex*/ << id_item_act << " " << nb_item_act << endl;
-		//Vérifie si l'item n'existe pas déjà dans la map
-		//Et si c'est le cas, on rajoute le nombre qu'on vient de trouver à celui déjà existant
+		// Check if the item is already in the map
+		// And if so, we add the just found quantity to the already existing one.
         if (auto trouve = coffre.find(id_item_act); trouve == coffre.end() )
             coffre[id_item_act] = nb_item_act;
         else

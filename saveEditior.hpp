@@ -4,31 +4,31 @@
 #include <vector>
 #include <map>
 
-//Fonctions pour le chargement
+// Functions for loading
 
 // Endian Swap
 void swapByteOrder(unsigned short & us);
-// Charge le fichier qui fait correspondre id et nom des items
+// Load the file with the correspondance between id and name
 void chargementID(std::vector<std::string> & itemID);
-// Charge le coffre dans le fichier de sauvegarde
+// Load the chest in memory
 void chargementCoffre(std::vector<unsigned short> & la_merde_avant_le_coffre, std::map<unsigned short, unsigned short> & coffre, std::vector<unsigned short> & la_merde_apres_le_coffre);
 
-// Fonctions pour l'édition
+// Functions for Edition
 
-// Renvoie un bool, true si l'objet est déjà dans le coffre.
+// Returns a bool, true true if the item is in the inventory.
 bool vérifPossItem(std::map<unsigned short, unsigned short> & coffre, unsigned short itemID);
-// Renvoie l'id d'un Item à partir de son nom
+// Return the id of an Item from it's name
 unsigned short chercheIdAvecNom(std::vector<std::string> & itemID, std::string & nomItem);
-// Ajoute un item dans le coffre à partir du nom de l'item
+// Add an item in the chest from it's name
 void ajouterItem(std::map<unsigned short, unsigned short> & coffre, std::string & nomItem, std::vector<std::string> & itemID);
-// Ajoute un item dans le coffre à partir de l'id de l'item
+// Add an item in the chest from it's Id
 void ajouterItem(std::map<unsigned short, unsigned short> & coffre, unsigned short idItem);
-// Ajoute concrétement l'item dans le coffre, renvoie un bool (true si ça marche bien, false sinon)
+// Function that truly adds the item.
 bool ajouterUnItemAvecID (std::map<unsigned short, unsigned short> & coffre, unsigned short idItem);
-// Change la quantité d'un item déjà dans le coffre.
+// Edit the quantity of an item already in the chest.
 void changerQte(std::map<unsigned short, unsigned short> & coffre);
 
-// Fonction de sauvegarde 
+// Save function
 void sauvegarde(std::vector<unsigned short> & la_merde_avant_le_coffre, std::map<unsigned short, unsigned short> & coffre, std::vector<unsigned short> & la_merde_apres_le_coffre);
 
 
