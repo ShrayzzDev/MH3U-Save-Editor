@@ -52,7 +52,7 @@ void chargementCoffre(vector<unsigned short> & la_merde_avant_le_coffre, map<uns
     // I divde by 2 beacause 1 hexa = 1 unsigned short (2 octets), and an unsigned short = int (4 octets)/2 (in size)
     // (and we use unsigned short because they take less space, and we only need 2 bytes space)
     unsigned short taille_avant_coffre =  432/2;
-    for (int rep = 0; rep <= taille_avant_coffre; ++rep)
+    for (int rep = 0; rep <= taille_avant_coffre - 1; ++rep)
     {
         unsigned short id_act;
         fich_save.read((char *)&id_act, sizeof(unsigned short));
@@ -62,7 +62,7 @@ void chargementCoffre(vector<unsigned short> & la_merde_avant_le_coffre, map<uns
 	// 4432 correspond to the offset of the beginning of the equipement chest (and so, the end off the item one)
 	// So, size of the chest= offset of the equipement chest - item chest
 	// And there we divide by 4 bc 
-    unsigned short taille_coffre = 4432/4 - taille_avant_coffre ;
+    unsigned short taille_coffre = (4432/2 - taille_avant_coffre)/2;
     fich_save.seekg(taille_avant_coffre);
 	for (int rep = 0; rep < taille_coffre; rep++)
 	{
