@@ -3,7 +3,7 @@
 #include <map>
 #include <iostream>
 
-#include "saveEditior.hpp"
+#include "saveEditor.hpp"
 
 using namespace std;
 

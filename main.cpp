@@ -7,7 +7,7 @@
 #include <algorithm>
 #include <string>
 
-#include "saveEditior.hpp"
+#include "saveEditor.hpp"
 
 using namespace std;
 

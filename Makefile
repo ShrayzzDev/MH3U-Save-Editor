@@ -13,10 +13,10 @@ exe: main.o chargement.o edition.o sauvegarde.cpp
 %.o: %.cpp
 	$(CXX) $(CPPFLAGS) -c $<
 
-main.o: main.cpp saveEditior.hpp
+main.o: main.cpp saveEditor.hpp
 
-chargement.o: chargement.cpp saveEditior.hpp
+chargement.o: chargement.cpp saveEditor.hpp
 
-edition.o: edition.cpp saveEditior.hpp
+edition.o: edition.cpp saveEditor.hpp
 
-sauvegarde.o: sauvegarde.cpp saveEditior.hpp
+sauvegarde.o: sauvegarde.cpp saveEditor.hpp

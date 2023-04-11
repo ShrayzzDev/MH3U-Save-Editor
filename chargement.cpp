@@ -4,7 +4,7 @@
 #include <iostream>
 #include <map>
 
-#include "saveEditior.hpp"
+#include "saveEditor.hpp"
 
 using namespace std;
 
