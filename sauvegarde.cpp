@@ -54,11 +54,11 @@ void sauvegarde (vector<unsigned short> & la_merde_avant_le_coffre, map<unsigned
         cout << " -------- Nb Slots --------" << endl;
         cout << dec << nb_slot << endl;
     }
-    unsigned short empty_space = (4432 - 432)/2 /2 - 436/4 - nb_slot;
+    unsigned short empty_space = (4432/2 - 432)/2 - nb_slot;
     cout << "Nb slot: " << dec << nb_slot << endl;
     cout << "Nb slot vides: " << dec << empty_space << endl;
     cout << dec << (4432/2 - 432/2)/2 << endl;
-    for (int rep = 0; rep <= empty_space; ++rep)
+    for (int rep = 0; rep < empty_space; ++rep)
     {
         unsigned int zero = 0;
         nv_save.write((char*)&zero,4);
