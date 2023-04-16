@@ -62,7 +62,6 @@ void chargementCoffre(vector<unsigned short> & la_merde_avant_le_coffre, map<uns
 	// So, size of the chest= offset of the equipement chest - item chest
 	// And there we divide by 4 bc 
     unsigned short taille_coffre = (4432/2 - taille_avant_coffre)/2;
-    cout << dec << taille_coffre << endl;
     fich_save.seekg(taille_avant_coffre);
 	for (int rep = 0; rep < taille_coffre; rep++)
 	{
