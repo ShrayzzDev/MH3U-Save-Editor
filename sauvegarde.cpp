@@ -31,17 +31,21 @@ void sauvegarde (vector<unsigned short> & la_merde_avant_le_coffre, map<unsigned
         cout << " -------- item id -------- " << endl;
         cout << temp1 << endl;
         cout << " -------- quantity -------- " << endl;
+        cout << "total quantity = " << temp2 << endl;
+        cout << " -------------------------- " << endl;
         // If division by 99 > 1, then there's at least one full slot left.
         while(temp2/99 >= 1)  
         {
-            cout << "ça reste bloqué ici" << endl;
+            cout << "full slot (99)" << endl;
             nv_save.write((char*)&temp1,2);
             nv_save.write((char*)&max_quant,2);
             ++rep;
-            // nb_slot++;
             temp2 = temp2 - 99;
         }
         unsigned short nb_dernier_slot = it->second - rep * 99;
+        if (nb_dernier_slot == 0){
+            break;
+        }
         cout << nb_dernier_slot << endl;
         swapByteOrder(nb_dernier_slot);
         nv_save.write((char*)&temp1,2);
@@ -50,7 +54,7 @@ void sauvegarde (vector<unsigned short> & la_merde_avant_le_coffre, map<unsigned
         cout << " -------- Nb Slots --------" << endl;
         cout << dec << nb_slot << endl;
     }
-    unsigned short empty_space = (4432/2 - 432/2)/2 - nb_slot;
+    unsigned short empty_space = (4432 - 432)/2 /2 - 436/4 - nb_slot;
     cout << "Nb slot: " << dec << nb_slot << endl;
     cout << "Nb slot vides: " << dec << empty_space << endl;
     cout << dec << (4432/2 - 432/2)/2 << endl;

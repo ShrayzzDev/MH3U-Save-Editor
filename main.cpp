@@ -46,7 +46,7 @@ int main (void)
 			cout << "Cet emplacement est vide" << endl;
         else {
             if (it->first < itemID.size() ) {
-                cout << "Vous avez " << hex << it->second << " " << "(id: " << hex << it->first << ") " << itemID.at(it->first) << " dans votre coffre." << endl;
+                cout << "Vous avez " << dec << it->second << " " << "(id: " << hex << it->first << ") " << itemID.at(it->first) << " dans votre coffre." << endl;
             } else {
                 cerr << "Unknown item id : " << it->first << endl;
             }
