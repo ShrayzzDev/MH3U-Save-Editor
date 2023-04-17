@@ -76,6 +76,9 @@ int main (void)
 		cout << "|  4. Change the quantity of an item with id       |" << endl;
 		cout << "|  5. Change the quantity of an item with name     |" << endl;
 		cout << "|                                                  |" << endl;
+		cout << "|  98. Quit without saving                         |" << endl;
+		cout << "|  99. Quit with saving                            |" << endl;
+		cout << "|                                                  |" << endl;
 		cout << "----------------------------------------------------" << endl;
 		cout << endl;
 		cout << "Make a choice :" << endl;
@@ -90,7 +93,7 @@ int main (void)
 
 		case 2:
 			cout << "Enter the name of the item: " << endl;
-			cin >> name;
+			getline(cin >> ws, name);
 			ajouterItem(coffre,name,itemID);
 			break;
 
@@ -108,13 +111,17 @@ int main (void)
 
 		case 5:
 			cout << "Enter the name of the item: " << endl;
-			cin >> name;
+			getline(cin >> ws, name);
 			changerQte(coffre,name,itemID);
 			break;
 
-		case 9:
+		case 98:
 			exit(0);
+			break;
+
+		case 99:
 			sauvegarde(avant_le_coffre,coffre,apres_le_coffre);
+			exit(0);
 			break;
 
 		default:

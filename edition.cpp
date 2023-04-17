@@ -69,7 +69,7 @@ bool ajouterUnItemAvecID (map<unsigned short, unsigned short> & coffre, unsigned
     cin >> qte;
     while (qte >= 1000)
     {
-        cout << "Quantite trop haute, veuillez en rentree une plus petite: " << endl;
+        cout << "Quantity too high, enter a lower one: " << endl;
         cin >> qte;
     }
     unsigned short qteTot = coffre[idItem] + qte;
