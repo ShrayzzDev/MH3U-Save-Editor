@@ -39,7 +39,7 @@ void chargementID(vector<string> & itemID)
 	}
 }
 
-void chargementCoffre(vector<unsigned short> & la_merde_avant_le_coffre, map<unsigned short, unsigned short> & coffre, vector<unsigned short> & la_merde_apres_le_coffre)
+void chargementCoffre(vector<unsigned short> & avant_le_coffre, map<unsigned short, unsigned short> & coffre, vector<unsigned short> & apres_le_coffre)
 {
     ifstream fich_save;
 	fich_save.open("./user1",ios::in | ios::binary);
@@ -56,7 +56,7 @@ void chargementCoffre(vector<unsigned short> & la_merde_avant_le_coffre, map<uns
     {
         unsigned short id_act;
         fich_save.read((char *)&id_act, sizeof(unsigned short));
-        la_merde_avant_le_coffre.push_back(id_act);
+        avant_le_coffre.push_back(id_act);
    }
 	// 4432 correspond to the offset of the beginning of the equipement chest (and so, the end off the item one)
 	// So, size of the chest= offset of the equipement chest - item chest
@@ -83,6 +83,6 @@ void chargementCoffre(vector<unsigned short> & la_merde_avant_le_coffre, map<uns
     {
         unsigned short id_act;
         fich_save.read((char *)&id_act, sizeof(unsigned short));
-        la_merde_apres_le_coffre.push_back(id_act);
+        apres_le_coffre.push_back(id_act);
     }
 }

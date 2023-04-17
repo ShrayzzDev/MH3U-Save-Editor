@@ -7,7 +7,7 @@
 
 using namespace std;
 
-unsigned short chercheIdAvecNom(vector<string> & itemID, string & nomItem)
+unsigned short chercheIdAvecNom(const vector<string> & itemID, const string & nomItem)
 {
     unsigned short i;
     for (i = 0; i < itemID.size(); i++)
@@ -23,13 +23,13 @@ bool verifPossItem(map<unsigned short, unsigned short> & coffre, unsigned short 
     {
         if (itemID == it->first)
             return true;
-        if (it->first == 0)
+        if (itemID == 0)
             return false;
     }
     return false;
 }
 
-void ajouterItem(map<unsigned short, unsigned short> & coffre, string & nomItem, vector<string> & itemID)
+void ajouterItem(map<unsigned short, unsigned short> & coffre, const string & nomItem, const vector<string> & itemID)
 {
     unsigned short idAChercher = chercheIdAvecNom(itemID,nomItem);
     if (verifPossItem(coffre,idAChercher))
@@ -65,10 +65,8 @@ void ajouterItem(map<unsigned short, unsigned short> & coffre, unsigned short id
 bool ajouterUnItemAvecID (map<unsigned short, unsigned short> & coffre, unsigned short idItem)
 {
     unsigned short qte;
-    cout << "Avant" << endl;
     cout << "Quelle quantite ?" << endl;
     cin >> qte;
-    cout << "Apres" << endl;
     while (qte >= 1000)
     {
         cout << "Quantite trop haute, veuillez en rentree une plus petite: " << endl;
@@ -77,30 +75,33 @@ bool ajouterUnItemAvecID (map<unsigned short, unsigned short> & coffre, unsigned
     unsigned short qteTot = coffre[idItem] + qte;
     coffre[idItem] = qteTot;
     unsigned short nbEmplacement = qteTot%99 + 1, i;
-    //Sert à supprimer des emplacements de coffre en trop, car si on a + que 99 d'un item,
-    //il prend plusieurs slots
+    // Sert à supprimer des emplacements de coffre en trop, car si on a + que 99 d'un item,
+    // il prend plusieurs slots
     for (i = 0; i < nbEmplacement; i++)
         coffre.erase(coffre.size());
     return true;
 }
 
-void changerQte(map<unsigned short, unsigned short> & coffre)
+void changerQte(map<unsigned short, unsigned short> & coffre, unsigned short id)
 {
-    unsigned short idItem;
-    cout << "Quel item ?" << endl;
-    cin >> idItem;
-    if (! verifPossItem(coffre,idItem))
+    if (! verifPossItem(coffre,id))
     {
-        cout << "Erreur, l'item n'a pas pu être trouvé dans le coffre" << endl;
+        cerr << "Item wasn't found in your chest" << endl;
         return;
     }
-    unsigned short &qte = coffre[idItem];
-    cout << "Quantite actuelle: " << qte << endl;
-    cout << "Nouvelle quantite :" << endl;
+    unsigned short &qte = coffre[id];
+    cout << "Current quantity: " << qte << endl;
+    cout << "New quantity:" << endl;
     cin >> qte;
     while (qte >= 1000)
     {
-        cout << "Erreur, quantite trop grande" << endl;
+        cerr << "Quantity too big" << endl;
         cin >> qte;
     }
+}
+
+void changerQte(map<unsigned short, unsigned short> & coffre, const string & name, const vector<string> & itemID)
+{
+    unsigned short idAChercher = chercheIdAvecNom(itemID,name);
+    changerQte(coffre,idAChercher);
 }

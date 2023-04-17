@@ -8,17 +8,17 @@
 
 using namespace std;
 
-void sauvegarde (vector<unsigned short> & la_merde_avant_le_coffre, map<unsigned short, unsigned short> & coffre, vector<unsigned short> & la_merde_apres_le_coffre)
+void sauvegarde(const vector<unsigned short> & avant_le_coffre, const map<unsigned short, unsigned short> & coffre, const vector<unsigned short> & apres_le_coffre)
 {
     ofstream nv_save;
     nv_save.open("./new/user1",ios::out | ios::binary );
-    for (unsigned short oct : la_merde_avant_le_coffre)
+    for (unsigned short oct : avant_le_coffre)
     {
         nv_save.write((char*)&oct,2);
     }
     // May seem useless, but bc the endian swap function uses reference, so I can't swap if I put it in raw.
     unsigned short max_quant = 99, nb_slot = 0; 
-    map<unsigned short, unsigned short>::iterator it = coffre.begin();
+    map<unsigned short, unsigned short>::const_iterator it = coffre.cbegin();
     it++;
     for (it ; it != coffre.end(); ++it)
     {
@@ -47,7 +47,7 @@ void sauvegarde (vector<unsigned short> & la_merde_avant_le_coffre, map<unsigned
         unsigned int zero = 0;
         nv_save.write((char*)&zero,4);
     }
-    for (unsigned short oct : la_merde_apres_le_coffre)
+    for (unsigned short oct : apres_le_coffre)
     {
         nv_save.write((char*)&oct,2);
     }
