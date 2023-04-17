@@ -8,4 +8,6 @@ It may have bugs, ALWAYS backup your save BEFORE editing it with this sofware, a
 
 What can it do ?
 
-It can edit item from your chest
+It can :
+  - Add item item to your chest, you can give it the item name or id
+  - Modify the quantiy of you have of an item, you can give the item name or id.
