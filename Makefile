@@ -1,22 +1,33 @@
 CXX = g++
 
-CPPFLAGS =  -Wall -std=c++17
+CPPFLAGS = -Wall -std=c++17
+
+SRCDIR = src/
+
+OBJDIR = obj
+
+OBJS := $(addprefix $(OBJDIR)/, main.o chargement.o edition.o sauvegarde.o)
+
+SRCS := $(addprefix $(SRCDIR)/, main.cpp chargement.cpp edition.cpp sauvegarde.cpp)
 
 all: exe
 
+$(OBJDIR):
+	mkdir $(OBJDIR)
+
 clean:
-	rm -f *.o exe 
+	rm -f $(OBJDIR) exe
 
-exe: main.o chargement.o edition.o sauvegarde.cpp
-	$(CXX) $(CPPFLAGS) $+ -o $@
+exe: $(OBJS)
+	$(CXX) $(CPPFLAGS) $^ -o $@
 
-%.o: %.cpp
-	$(CXX) $(CPPFLAGS) -c $<
+$(OBJDIR)/%.o: $(SRCDIR)%.cpp | $(OBJDIR)
+	$(CXX) $(CPPFLAGS) -c $< -o $@
 
-main.o: main.cpp saveEditor.hpp
+$(OBJDIR)/main.o: $(SRCDIR)main.cpp $(SRCDIR)saveEditor.hpp
 
-chargement.o: chargement.cpp saveEditor.hpp
+$(OBJDIR)/chargement.o: $(SRCDIR)chargement.cpp $(SRCDIR)saveEditor.hpp
 
-edition.o: edition.cpp saveEditor.hpp
+$(OBJDIR)/edition.o: $(SRCDIR)edition.cpp $(SRCDIR)saveEditor.hpp
 
-sauvegarde.o: sauvegarde.cpp saveEditor.hpp
+$(OBJDIR)/sauvegarde.o: $(SRCDIR)sauvegarde.cpp $(SRCDIR)saveEditor.hpp
