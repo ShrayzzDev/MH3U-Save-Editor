@@ -58,6 +58,6 @@ The saved savefiles are going to be saved in the new/ folder.
 - launch Cemu
 - Right click on the game -> Save Directory
 - Go to user -> a number (ex : 80000001)
-- Then here is your user1 file !
+- Then here is your user1 file !  
 Note : user1 represent the first save file, but user2 or user 3 will work, you just need to rename the file to use1 when using the save editor.
 
