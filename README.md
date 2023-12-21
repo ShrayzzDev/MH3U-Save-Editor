@@ -20,7 +20,7 @@ The simplest version is to download it.
 To download it :
 
 - Go to [the release section of the repository](https://github.com/ShrayzzDev/MH3U-Save-Editor/releases/latest)
-- Download the rar file names after your OS.
+- Download the rar file named after your OS.
 - Extract the rar file.
 
 Now if you want to compile it :
@@ -50,3 +50,14 @@ Also make sure that the item ids file is also in the same folder as the executab
 You can launch it via command-line, or double click on it.
 
 To get all the ids/names of the items you can look at the item ids file.
+
+The saved savefiles are going to be saved in the new/ folder.
+
+## How to get the save file from Cemu ?
+
+- launch Cemu
+- Right click on the game -> Save Directory
+- Go to user -> a number (ex : 80000001)
+- Then here is your user1 file !
+Note : user1 represent the first save file, but user2 or user 3 will work, you just need to rename the file to use1 when using the save editor.
+
